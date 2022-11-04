@@ -232,6 +232,65 @@ footer a {
 }
 
 
+/* -----------------Phone size media query--------------- */
+
+
+@media only screen and (max-width: 450px) {
+    table {
+        transform: translate(0%, 0%);
+    }
+
+    .table {
+        align-items: center;
+        align-content: center;
+        overflow-y: scroll;
+    }
+
+    tr {
+        padding: 5px;
+    }
+
+    footer {
+        width: 100%;
+    }
+
+    .ad {
+        margin: 70px 0 30px 0;
+    }
+
+    .ad img {
+        width: 200px;
+        margin: -0 auto auto 10px;
+    }
+
+    .ad .text h1 {
+        margin: 162px auto auto -193px;
+    }
+
+    .ad h3 {
+        margin: 7px auto 16px -190px;
+    }
+
+    .ad .text input {
+        margin: 0px auto 15px -208px;
+    }
+
+    table {
+        width: 30px;
+    }
+    
+    thead {
+        width: 50px;
+    }
+
+    tr{
+        width: 40px;
+        height: 70px;
+    }
+}
+
+
+
 /* -----------------Phone landscape/ desktop site size media query--------------- */
 
 
