@@ -129,6 +129,25 @@ footer a {
 }
 
 
+/* -----------------Phone landscape/ desktop site size media query--------------- */
+
+
+@media only screen and (max-width: 1000px) {
+    .ad {
+        width: 60%;
+        transform: translate(31.3%, -4%);
+    }
+
+    .ad img {
+        margin-left: -5px;
+    }
+
+    table {
+        transform: translate(32%, -16%);
+    }
+}
+
+
 /* -----------------tablet size media query--------------- */
 
 
@@ -220,12 +239,12 @@ footer a {
     table {
         width: 30px;
     }
-    
+
     thead {
         width: 50px;
     }
 
-    tr{
+    tr {
         width: 40px;
         height: 70px;
     }
@@ -240,69 +259,25 @@ footer a {
         transform: translate(0%, 0%);
     }
 
-    .table {
-        align-items: center;
-        align-content: center;
-        overflow-y: scroll;
+    .ad img{
+        margin-left: 15px;
     }
 
-    tr {
-        padding: 5px;
-    }
-
-    footer {
-        width: 100%;
-    }
-
-    .ad {
-        margin: 70px 0 30px 0;
-    }
-
-    .ad img {
-        width: 200px;
-        margin: -0 auto auto 10px;
-    }
-
-    .ad .text h1 {
-        margin: 162px auto auto -193px;
+    .ad .text {
+        width: 50px;
+        margin: 0 0 0 0;
     }
 
     .ad h3 {
-        margin: 7px auto 16px -190px;
+        display: block;
+        margin: 8px 0 -448px -192px;
     }
 
-    .ad .text input {
-        margin: 0px auto 15px -208px;
+    .ad h3 span {
+        display: block;
+        margin: 407px 20px -429px -482px;
     }
-
-    table {
-        width: 30px;
-    }
-    
-    thead {
-        width: 50px;
-    }
-
-    tr{
-        width: 40px;
-        height: 70px;
-    }
-}
-
-
-
-/* -----------------Phone landscape/ desktop site size media query--------------- */
-
-
-@media only screen and (max-width: 1000px) {
-    .ad{
-        width: 60%;
-        transform: translate(31.3%, -4%);
-    }
-    .ad img{
-        margin-left: -5px;
-    }
-    table{
-        transform: translate(32%, -16%);
+    .text button{
+        margin: 8px -5px 7px -221px;
     }
 }
