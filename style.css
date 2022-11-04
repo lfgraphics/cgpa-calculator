@@ -1,0 +1,249 @@
+*:focus {
+    outline: none;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #262626;
+    color: aliceblue;
+    align-items: center;
+}
+
+table,
+thead,
+th,
+td,
+tbody {
+    border: 1px solid aliceblue;
+    border-collapse: collapse;
+}
+
+input,
+option,
+select {
+    border: none;
+    text-align: center;
+    background-color: transparent;
+    color: aliceblue;
+}
+
+option {
+    background-color: #262626;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+table {
+    width: 60%;
+    text-align: center;
+    padding: 50px 50px 20px 40px;
+    transform: translate(35%, -16%);
+}
+
+tr {
+    width: 90%;
+    height: 30%;
+}
+
+th {
+    font-size: 21px;
+    font-weight: 400;
+}
+
+td,
+input,
+select {
+    font-size: 20px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.uper {
+    text-align: center;
+}
+
+.ad {
+    display: flex;
+    background-color: aliceblue;
+    color: #262626;
+    width: 58%;
+    height: 30%;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+    transform: translate(35.3%, -5%);
+    margin: 30px 0 30px 0;
+    align-items: flex-start;
+}
+
+.ad img {
+    width: 300px;
+}
+
+.ad .text {
+    margin-top: 20px;
+}
+
+.text button {
+    margin-right: 275px;
+    background-color: #262626;
+    color: aliceblue;
+    border: 1px solid aliceblue;
+    border-radius: 5px;
+    padding: 8px;
+    font-size: medium;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.text button:hover {
+    background-color: aliceblue;
+    color: #262626;
+    border: 1px solid #262626;
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+    padding: 25px 0;
+    background: black;
+    font-weight: 300;
+    margin-top: 20px;
+    box-sizing: border-box;
+    position: absolute;
+    left: 0;
+}
+
+footer a {
+    text-decoration: none;
+    color: #ffff;
+}
+
+.fa-heart {
+    color: red
+}
+
+
+/* -----------------tablet size media query--------------- */
+
+
+@media only screen and (max-width: 900px) {
+    .ad {
+        padding: 10px;
+    }
+
+    .ad img {
+        width: 250px;
+    }
+
+    .ad h1 {
+        font-size: 30px;
+        margin: 40px auto auto 24px;
+    }
+
+    .ad h3 {
+        display: flex;
+        margin: 45px auto 15px -205px;
+    }
+
+    .ad .text {
+        width: 250px;
+    }
+
+    .ad .text input {
+        margin: -2px auto 15px -251px;
+    }
+
+    table {
+        width: auto;
+        transform: translate(12%, -16%);
+        font-size: 5px;
+    }
+
+    tr {
+        padding: 5px;
+        font-size: x-small;
+    }
+}
+
+
+/* -----------------Phone size media query--------------- */
+
+
+@media only screen and (max-width: 600px) {
+    table {
+        width: auto;
+        transform: translate(0, 0);
+        font-size: 5px;
+    }
+
+    .table {
+        align-items: center;
+        align-content: center;
+        overflow-y: scroll;
+    }
+
+    tr {
+        padding: 5px;
+    }
+
+    footer {
+        width: 100%;
+    }
+
+    .ad {
+        margin: 70px 0 30px 0;
+    }
+
+    .ad img {
+        width: 200px;
+        margin: -0 auto auto 10px;
+    }
+
+    .ad .text h1 {
+        margin: 162px auto auto -193px;
+    }
+
+    .ad h3 {
+        margin: 7px auto 16px -190px;
+    }
+
+    .ad .text input {
+        margin: 0px auto 15px -208px;
+    }
+
+    table {
+        width: 30px;
+    }
+    
+    thead {
+        width: 50px;
+    }
+
+    tr{
+        width: 40px;
+        height: 70px;
+    }
+}
+
+
+/* -----------------Phone landscape/ desktop site size media query--------------- */
+
+
+@media only screen and (max-width: 1000px) {
+    .ad{
+        width: 60%;
+        transform: translate(31.3%, -4%);
+    }
+    .ad img{
+        margin-left: -5px;
+    }
+    table{
+        transform: translate(32%, -16%);
+    }
+}

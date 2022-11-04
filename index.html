@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="https://kit.fontawesome.com/0f2e37f433.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&display=swap');
+    </style>
+    <title>C/SGPA online calculator</title>
+</head>
+
+<body>
+    
+    <div class="uper">
+        <h1>B.A., B.S.C., B.COM <b>-</b> CGPA, SGPA & Marks Calculator</h1>
+        <p>
+            To calculate
+            <br>
+            select CGPA or SGPA from the dropdown list
+            <br>
+            Enter C/SGPA and BOOM your total marks and percentage both will be calculated
+        </p>
+    </div>
+    <div class="ad">
+        <img src="images/not.png" alt="">
+        <div class="text">
+            <h1 style="text-align: left ;">Get your scholership right here</h1>
+            <h3 style="text-align: left ;">Are you looking to submit a scholership form?
+                <br>
+                You can get this facility from your home
+                <br>
+                <span style="font-size: 70%;">LF Graphics (Taha Kazmi)</span>
+            </h3>
+            <br>
+            <button onclick="visit()" value="Contact us now">Contact us now</button>
+        </div>
+    </div>
+    <div class="table">
+        <table>
+            <thead>
+                <tr width="100%" style="padding: 5px;">
+                    <th>Select points of </th>
+                    <th>Enter Points &#8659;</th>
+                    <th>Percentage</th>
+                    <th>Total gained marks</th>
+                </tr>
+                <tr>
+                    <td name="base">
+                        <select name="base" id="base" onchange="see()" autofocus>
+                            <option value="select" selected>CGPA/ SGPA</option>
+                            <option name="1" value="cgpa">CGPA</option>
+                            <option name="2" value="sgpa">SGPA</option>
+                        </select>
+                    </td>
+                    <td><input type="number" id="nmbr" onchange="add()"></td>
+                    <td><output id="prcnt"></td>
+                    <td><output id="marks"></td>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+    </div>
+    <footer>
+        <p>Copyright <i class="fa-regular fa-copyright"></i> made with <i class="fa-solid fa-heart"></i> by <a
+                href="">Taha Kazmi</a><br>All rights reserved</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
